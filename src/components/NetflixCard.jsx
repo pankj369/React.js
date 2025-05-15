@@ -1,19 +1,16 @@
-export const NetflixCard = (props) => {
+export const NetflixCard = ({ curElem }) => {
+  const { id, img_url, name, rating, description, cast, genre, watch_url } =
+    curElem;
   return (
     <li>
       <div>
-        <img
-          src={props.curElem.img_url}
-          alt="qot.png"
-          width="40%"
-          height="40%"
-        />
-        <h1>Name: {props.curElem.name}</h1>
-        <strong>Rating:{props.curElem.rating}</strong>
-        <p>Description={props.curElem.description} </p>
-        <p>Caste: {props.curElem.cast}</p>
-        <p>Genre: {props.curElem.genre} </p>
-        <a href={props.curElem.watch_url} target="_blank">
+        <img src={img_url} alt="qot.png" width="40%" height="40%" />
+        <h1>Name: {name}</h1>
+        <strong>Rating:{rating}</strong>
+        <p>Description={description} </p>
+        <p>Caste: {cast}</p>
+        <p>Genre: {genre} </p>
+        <a href={watch_url} target="_blank">
           <button>Watch Now </button>
         </a>
       </div>

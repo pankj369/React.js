@@ -1,12 +1,15 @@
-import { Netflix } from "./components/Netflix";
+import { EventHandling } from "./components/EventHandling";
+// import { Netflix } from "./components/Netflix";
+
 
 function App() {
   return (
     <div>
-      <h1 style={{ textAlign: "center", margin: "20px 0", color: "#e50914" }}>
+      {/* <h1 style={{ textAlign: "center", margin: "20px 0", color: "#e50914" }}>
         Netflix Originals
       </h1>
-      <Netflix />
+      <Netflix /> */}
+      <EventHandling/>
     </div>
   );
 }

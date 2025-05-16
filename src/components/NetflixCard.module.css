@@ -1,0 +1,47 @@
+.super_hit {
+  border-radius: 5px;
+  padding: 1px 6px;
+  background-color: #04682f;
+  color: white;
+}
+
+.average {
+  border-radius: 5px;
+  padding: 1px 6px;
+  background-color: #b99502;
+  color: white;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  margin: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.listStyle {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+}

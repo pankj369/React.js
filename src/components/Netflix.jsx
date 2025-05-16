@@ -1,16 +1,10 @@
 import netflixData from "../api/netflixData.json";
 import { NetflixCard } from "./NetflixCard";
-
+import styles from './NetflixCard.module.css';
 export const Netflix = () => {
-  const listStyle = {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-    padding: '2rem',
-  };
 
   return (
-    <ul style={listStyle}>
+    <ul className={styles.listStyle}>
       {netflixData.map((curElem) => (
         <NetflixCard key={curElem.id} curElem={curElem} />
       ))}

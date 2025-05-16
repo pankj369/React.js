@@ -14,7 +14,8 @@ export const EventHandling=()=>{
   return (
     <>
     {/* <button onClick={handleWelcomeUsers}>Click me</button> */}
-    <button onClick={()=>handleWelcomeUsers('pankaj')}>click me</button>
+    <button className="btn" 
+    onClick={()=>handleWelcomeUsers('pankaj')}>click me</button>
     </>
   )
 }

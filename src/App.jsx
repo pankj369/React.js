@@ -1,6 +1,6 @@
 import { EventHandling } from "./components/EventHandling";
+import { EventProps } from "./components/EventProps";
 // import { Netflix } from "./components/Netflix";
-
 
 function App() {
   return (
@@ -9,7 +9,9 @@ function App() {
         Netflix Originals
       </h1>
       <Netflix /> */}
-      <EventHandling/>
+      <EventHandling />
+      <hr />
+      <EventProps />
     </div>
   );
 }

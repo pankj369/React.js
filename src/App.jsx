@@ -1,7 +1,8 @@
 // import { EventHandling } from "./components/EventHandling";
 // import { EventPropagation } from "./components/EventPropagation";
-import { State } from "./components/hooks/state";
+import { Sibling, State } from "./components/hooks/state";
 import './components/EV.css'
+import { DerivedState } from "./components/DerivedState";
 // import { EventProps } from "./components/EventProps";
 // import { Netflix } from "./components/Netflix";
 
@@ -16,7 +17,9 @@ function App() {
       {/* <hr /> */}
       {/* <EventProps /> */}
         {/* <EventPropagation/> */}
-        <State/>
+        {/* <State/>
+        <Sibling/> */}
+        <DerivedState/>
     </div>
   );
 }

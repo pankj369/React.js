@@ -34,3 +34,11 @@ border: 2px solid white;
 padding: 20px 30px;
 background-color: tomato;
 }
+
+.increment{
+  background-color:cyan;
+  border: 2px solid yellow;
+  padding: 20px 40px;
+  font-size: x-large;
+
+}

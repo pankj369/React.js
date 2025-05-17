@@ -1,5 +1,7 @@
 // import { EventHandling } from "./components/EventHandling";
-import { EventPropagation } from "./components/EventPropagation";
+// import { EventPropagation } from "./components/EventPropagation";
+import { State } from "./components/hooks/state";
+import './components/EV.css'
 // import { EventProps } from "./components/EventProps";
 // import { Netflix } from "./components/Netflix";
 
@@ -13,7 +15,8 @@ function App() {
       {/* <EventHandling /> */}
       {/* <hr /> */}
       {/* <EventProps /> */}
-        <EventPropagation/>
+        {/* <EventPropagation/> */}
+        <State/>
     </div>
   );
 }

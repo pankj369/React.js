@@ -1,11 +1,11 @@
 // import { EventHandling } from "./components/EventHandling";
 // import { EventPropagation } from "./components/EventPropagation";
-import { Sibling, State } from "./components/hooks/state";
+// import { Sibling, State } from "./components/hooks/state";
 import './components/EV.css'
-import { DerivedState } from "./components/DerivedState";
+// import { DerivedState } from "./components/DerivedState";
 // import { EventProps } from "./components/EventProps";
 // import { Netflix } from "./components/Netflix";
-
+ import { LiftingState } from './components/LiftStateUp';
 function App() {
   return (
     <div>
@@ -19,7 +19,7 @@ function App() {
         {/* <EventPropagation/> */}
         {/* <State/>
         <Sibling/> */}
-        <DerivedState/>
+        <LiftingState/>
     </div>
   );
 }

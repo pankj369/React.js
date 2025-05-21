@@ -1,11 +1,12 @@
 // import { EventHandling } from "./components/EventHandling";
 // import { EventPropagation } from "./components/EventPropagation";
 // import { Sibling, State } from "./components/hooks/state";
-import './components/EV.css'
+// import './components/EV.css'
 // import { DerivedState } from "./components/DerivedState";
 // import { EventProps } from "./components/EventProps";
 // import { Netflix } from "./components/Netflix";
- import { LiftingState } from './components/LiftStateUp';
+//  import { LiftingState } from './components/LiftStateUp';
+import { ToogleSwitch } from "./projects/ToggleSwitch/ToogleSwitch";
 function App() {
   return (
     <div>
@@ -19,7 +20,8 @@ function App() {
         {/* <EventPropagation/> */}
         {/* <State/>
         <Sibling/> */}
-        <LiftingState/>
+        {/* <LiftingState/> */}
+        <ToogleSwitch/>
     </div>
   );
 }

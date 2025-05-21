@@ -1,0 +1,39 @@
+/* ToogleSwitch.css */
+.toogle-switch {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f44336; /* fallback */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.switch {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.switch.On {
+  transform: translateX(55px);
+}
+
+.switch.Off {
+  transform: translateX(0);
+}
+
+.switch-state {
+  pointer-events: none;
+}
